@@ -1,0 +1,1 @@
+This is the text from "message.txt" file to check gradle functionality.
