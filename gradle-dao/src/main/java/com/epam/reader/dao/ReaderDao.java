@@ -23,7 +23,7 @@ public class ReaderDao {
             everything = reader.readLine();
 
         } catch (IOException e) {
-            logger.error(e.getMessage(), e);
+            logger.error("parseMsg() threw an exception: ", e);
         }
 
         return everything;
